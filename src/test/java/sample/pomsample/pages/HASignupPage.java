@@ -11,6 +11,8 @@ public class HASignupPage {
 	@FindBy(id = "password")
 	private WebElement password;
 	@FindBy(id = "retypePassword")
+	
+	//Comment
 	private WebElement repass;
 	@FindBy(id = "firstName")
 	private WebElement firstname;
