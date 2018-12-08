@@ -2,31 +2,29 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34618" started-at="2017-11-10T06:10:51Z" finished-at="2017-11-10T06:11:25Z">
+  <suite name="Suite" duration-ms="38547" started-at="2018-02-22T03:11:36Z" finished-at="2018-02-22T03:12:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34618" started-at="2017-11-10T06:10:51Z" finished-at="2017-11-10T06:11:25Z">
+    <test name="Test" duration-ms="38547" started-at="2018-02-22T03:11:36Z" finished-at="2018-02-22T03:12:14Z">
       <class name="sample.pomsample.test.HASignupTest">
-        <test-method status="FAIL" signature="testSignup()[pri:0, instance:sample.pomsample.test.HASignupTest@215be6bb]" name="testSignup" duration-ms="27162" started-at="2017-11-10T01:10:51Z" finished-at="2017-11-10T01:11:18Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="testSignup()[pri:0, instance:sample.pomsample.test.HASignupTest@215be6bb]" name="testSignup" duration-ms="29646" started-at="2018-02-21T22:11:36Z" finished-at="2018-02-21T22:12:05Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Unable to locate element: .//*[@id='content']/div/div/div[2]/div[5]/div/div/div/h1
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Failed to decode response from marionette
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'NIKHARPC2', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'JOSE-HPENVY', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\donbo\AppData\Local\Temp\rust_mozprofile.eRwMDrDDtxvW, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.2, platformVersion=10.0, moz:processID=21828, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: 850f82d3-5f08-4e97-957c-2fc7ec747d6b
+Capabilities [{moz:profile=C:\Users\donbo\AppData\Local\Temp\rust_mozprofile.lvk7vUEOnpNx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.2, platformVersion=10.0, moz:processID=7544, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: c4f1d68d-d5cd-42a8-b6ba-494cbd638fa9
 *** Element info: {Using=xpath, value=.//*[@id='content']/div/div/div[2]/div[5]/div/div/div/h1}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='content']/div/div/div[2]/div[5]/div/div/div/h1
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'NIKHARPC2', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'JOSE-HPENVY', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\donbo\AppData\Local\Temp\rust_mozprofile.eRwMDrDDtxvW, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.2, platformVersion=10.0, moz:processID=21828, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: 850f82d3-5f08-4e97-957c-2fc7ec747d6b
+Capabilities [{moz:profile=C:\Users\donbo\AppData\Local\Temp\rust_mozprofile.lvk7vUEOnpNx, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.2, platformVersion=10.0, moz:processID=7544, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: c4f1d68d-d5cd-42a8-b6ba-494cbd638fa9
 *** Element info: {Using=xpath, value=.//*[@id='content']/div/div/div[2]/div[5]/div/div/div/h1}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -73,15 +71,15 @@ Session ID: 850f82d3-5f08-4e97-957c-2fc7ec747d6b
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignup -->
-        <test-method status="PASS" signature="testVerifyPassword()[pri:0, instance:sample.pomsample.test.HASignupTest@215be6bb]" name="testVerifyPassword" duration-ms="7440" started-at="2017-11-10T01:11:18Z" finished-at="2017-11-10T01:11:25Z">
+        <test-method status="PASS" signature="testVerifyPassword()[pri:0, instance:sample.pomsample.test.HASignupTest@215be6bb]" name="testVerifyPassword" duration-ms="8877" started-at="2018-02-21T22:12:05Z" finished-at="2018-02-21T22:12:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyPassword -->
       </class> <!-- sample.pomsample.test.HASignupTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
