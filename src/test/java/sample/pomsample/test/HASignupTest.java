@@ -21,6 +21,7 @@ public void testSignup()
 	driver=new FirefoxDriver();
 	driver.get("https://www.homeadvisor.com/signup");
 	HASignupPage signupPage=PageFactory.initElements(driver,HASignupPage.class );
+	//ADDED COMMENT FOR GIT TEST
 	
 	signupPage.setEmail("joseboghg2009@gmail.com");
 	signupPage.setNames("josed", "nathand");
